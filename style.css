@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
+.text-center{
+    text-align: center;
+        
+}
+/* .bg-red{
+    background:red;
+} */
+html body{
+    font-family: 'Bitter', serif;
+
+}
+.mx-auto{
+    margin: auto;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    margin:6px 0px ;
+}
+.row input{
+    
+    font-size: 20px;
+    margin: 0;
+    padding: 11px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container{
+    background: grey;
+    border: 5px solid black;
+    width: 25%;
+}
